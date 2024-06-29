@@ -1,0 +1,537 @@
+.admin-panel-users {
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+.admin-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 600px;
+    transition: all 400ms ease;
+}
+
+.admin-user:hover {
+    /* transform: translateY(-10px);
+    transition: all 400ms ease; */
+    transform: scale(0.95);
+    transition: all 200ms ease;
+}
+
+.clicked {
+    transform: scale(0.95);
+    transition: all 200ms ease;
+}
+
+.admin-user-info {
+    border: 1px solid #ccc;
+    overflow: scroll;
+    width: 650px;
+    height: 750px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.admin-user-info h1 {
+    color: #000;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 12%;
+    left: 13.5%;
+}
+
+.admin-user-avatar {
+    margin-right: 20px;
+}
+
+.admin-user-avatar img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.admin-user-details {
+    flex: 1;
+    cursor: pointer;
+}
+
+.admin-panel-users {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.admin-panel-orders {
+    margin-left: 20px;
+    overflow: scroll;
+    width: 650px;
+    height: 750px;
+    /* max-height: 750px; */
+    box-shadow: 4px 4px 4px 6px rgba(128, 128, 128, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.admin-panel-orders h1 {
+    color: #000;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 12%;
+    left: 52.5%;
+}
+
+.status_order_admin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.status_order_admin button {
+    border: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin: 2px;
+    background-color: #4db5ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.status_order_admin button:hover {
+    background-color: rgba(77, 181, 255, 0.8);
+}
+
+.status_order_admin select {
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.statusSort-order option {
+    /* margin-top: 5px; */
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.admin-order {
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+}
+
+.admin-order-flex {
+    border-radius: 20px;
+    background-color: #000;
+    width: auto;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.test_admin_order {
+    /* display: fl; */
+}
+
+h1 span {
+    font-size: 14px;
+}
+
+.sortButtons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.sortOrder {
+    margin-right: 10px;
+    padding: 12px 24px;
+    background-color: #4db5ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.sortOrder:hover {
+    scale: 1.04;
+}
+
+.adminPanel-orders {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminPanel-testFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-order-details p {
+    padding-bottom: 5px;
+}
+
+.admin-order-item p {
+    padding-bottom: 5px;
+}
+
+.orderDownloadPdf {
+    padding: 12px 24px;
+    background-color: #4db5ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    margin-right: 10px;
+    /* height: 100p; */
+}
+
+.orderButtonList {
+    margin-top: 10px;
+    display: flex;
+}
+
+.orderDownloadPdf:hover {
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+}
+
+.takeUser {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+
+.header-admin-panel {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.header-admin-panel-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-admin-panel-button {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4db5ff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-admin-panel-button:hover {
+    transform: scale(0.95);
+}
+
+
+/* menu */
+
+.menuButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13%;
+    color: #090909;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.menuButton:hover {
+    border: 1px solid white;
+}
+
+.menuButton:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+        inset -4px -4px 12px #ffffff;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+}
+
+.menuButton span {
+    width: 30px;
+    height: 4px;
+    background: #131313;
+    border-radius: 100px;
+    transition: 0.3s ease;
+}
+
+input[type]:checked~span.top {
+    transform: translateY(290%)rotate(45deg);
+    width: 40px;
+}
+
+input[type]:checked~span.bot {
+    transform: translateY(-270%) rotate(-45deg);
+    width: 40px;
+    box-shadow: 0 0 10px #495057;
+}
+
+input[type]:checked~span.mid {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.menuLinks {
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    right: 65px;
+    top: 10px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 5px; */
+    transition: all 400ms ease;
+}
+
+.menuLink {
+    background-color: #fff;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    padding: 5px;
+    z-index: 2;
+    transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menuLink:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.menuLink.active {
+    color: #007bff;
+    /* Цвет текста активной ссылки */
+    /* font-weight: bold; */
+    /* Жирное начертание для активной ссылки */
+}
+
+.adminPanelOrders {
+    height: 900px;
+}
+
+.admin-panel-orders-info {
+    width: 100%;
+    height: 100%;
+}
+
+.adminReport {
+    height: 900px;
+}
+
+.adminReport-block {
+    height: 900px;
+}
+
+.adminReport-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.period-buttons button {
+    border: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin: 2px;
+    background-color: #4db5ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    transition: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.period-buttons button:hover {
+    background-color: rgba(77, 181, 255, 0.7);
+}
+
+.productReport-item {
+    background-color: #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 340px;
+    padding: 5px;
+}
+
+.adminReport-block table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.adminReport-block table th,
+.adminReport-block table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.adminReport-block table th {
+    background-color: #f2f2f2;
+}
+
+.adminReport-block table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.adminReport-block table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.adminReport-block table img {
+    max-width: 100px;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+
+    .admin-user {
+        width: 550px;
+    }
+
+    .admin-user-info h1 {
+        top: 12%;
+        left: 11%;
+    }
+
+    .admin-panel-orders {
+        width: 600px;
+    }
+
+    .admin-panel-orders h1 {
+        top: 12%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .admin-user {
+        width: 550px;
+    }
+
+    .admin-user-info h1 {
+        left: 8%;
+    }
+
+    .admin-panel-orders h1 {
+        left: 52.7%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .admin-user {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .admin-user {
+        width: 380px;
+    }
+
+    .admin-user-info h1 {
+        left: 10%;
+        top: 15%;
+    }
+
+    .admin-panel-orders h1 {
+        left: 52.7%;
+        top: 15%;
+    }
+
+    .admin-panel-orders {
+        /* width: 0px; */
+    }
+
+    .sortButtons {
+        flex-wrap: wrap;
+        /* margin-bottom: 5px; */
+    }
+
+    .sortOrder {
+        margin-bottom: 5px;
+    }
+
+    .status_order_admin {
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+    }
+
+    .status_order_admin label {
+        padding-right: 10px;
+    }
+}

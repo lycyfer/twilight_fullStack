@@ -1,0 +1,104 @@
+.profileUpdatePage {
+    /* margin-top: 200px; */
+    display: flex;
+    align-items: center;
+    height: 87vh;
+    justify-content: space-around;
+}
+
+.form-wrapper-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 40px 80px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-left: 70px;
+
+}
+
+.button-container {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.button-container button {
+    padding: 12px 24px;
+    background-color: #4db5ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    margin-right: 20px;
+}
+
+.form-wrapper-update label {
+    color: #fff;
+}
+
+.input-update {
+
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    border: none;
+
+}
+
+.input-update::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+
+.update {
+    border: none;
+    background-color: #4db5ff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.update:hover {
+    transition: all 0.4s ease-in-out;
+    scale: 1.05;
+}
+
+.sideContainer {
+    /* flex: 2; */
+    width: 620px;
+    height: 750px;
+    border-radius: 20px;
+    /* background-color: #000; */
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-update {
+    width: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+    .sideContainer {
+        width: 500px;
+        height: 730px;
+    }
+}

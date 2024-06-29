@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64c9066f.css",
+    "main.js": "/static/js/main.abf6d967.js",
+    "static/js/213.3233a339.chunk.js": "/static/js/213.3233a339.chunk.js",
+    "static/js/732.5b2f99ac.chunk.js": "/static/js/732.5b2f99ac.chunk.js",
+    "static/media/model-demonstrating-earrings-and-ring.jpg": "/static/media/model-demonstrating-earrings-and-ring.896d19adc03074796f68.jpg",
+    "static/media/Example_3.png": "/static/media/Example_3.7145a319883ed117563b.png",
+    "static/media/fonstola.ru_124079.jpg": "/static/media/fonstola.ru_124079.1c96c6ed384c47f9923c.jpg",
+    "static/media/Typo.png": "/static/media/Typo.99de7bf5592812ac5422.png",
+    "static/media/twilight_in.png": "/static/media/twilight_in.168707e96ec6d04db78e.png",
+    "static/media/twilight_front.png": "/static/media/twilight_front.4adc48bb5df4c01d6158.png",
+    "static/media/23.jpeg": "/static/media/23.6d8a73dbacb8217e54df.jpeg",
+    "static/media/Omo9wA4ur3k.jpg": "/static/media/Omo9wA4ur3k.aea6d7c308ea8d09c255.jpg",
+    "static/media/22.jpeg": "/static/media/22.254455f2ad2f96b5b65b.jpeg",
+    "static/media/no-avatar.png": "/static/media/no-avatar.3410dcbb554e5e912046.png",
+    "static/media/jpg": "/static/media/4c6c5075072392b654e1b756372d1d16.b22431e015f489a8b13a.jpg",
+    "static/media/NVIDIA_Share_zHwTFFtVfn-transformed.png": "/static/media/NVIDIA_Share_zHwTFFtVfn-transformed.897e403bd48cdbcd2055.png",
+    "index.html": "/index.html",
+    "main.64c9066f.css.map": "/static/css/main.64c9066f.css.map",
+    "main.abf6d967.js.map": "/static/js/main.abf6d967.js.map",
+    "213.3233a339.chunk.js.map": "/static/js/213.3233a339.chunk.js.map",
+    "732.5b2f99ac.chunk.js.map": "/static/js/732.5b2f99ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64c9066f.css",
+    "static/js/main.abf6d967.js"
+  ]
+}

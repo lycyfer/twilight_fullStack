@@ -1,0 +1,93 @@
+.content {
+    margin-top: 125px;
+}
+
+.support {
+    position: fixed;
+    display: block;
+    margin-top: 760px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 200;
+    background-color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1525px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+/* .support:hover {
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+
+} */
+
+.support:hover .support-block {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    /* display: block; */
+}
+
+.support-block {
+    position: fixed;
+    bottom: 8px;
+    right: 25px;
+
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+
+    border-radius: 5px;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+@media screen and (max-width: 1700px) {
+    .support {
+        /* right: 0; */
+        margin-top: 650px;
+        margin-left: 1420px;
+    }
+
+    .support-block {
+
+        bottom: 30px;
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .support-block {
+
+        bottom: 30px;
+        right: 14px;
+    }
+
+    .support {
+        /* right: 0; */
+        margin-top: 650px;
+        margin-left: 1250px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .support-block {
+
+        /* bottom: 8px;
+    right: 25px; */
+    }
+
+    .support {
+        /* right: 0; */
+        margin-top: 650px;
+        margin-left: 1190px;
+    }
+
+}

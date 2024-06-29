@@ -1,0 +1,357 @@
+@import '~leaflet/dist/leaflet.css';
+
+.text-light {}
+
+.about {
+    height: 100vh;
+    padding-top: 3rem;
+    /* overflow: hidden; */
+}
+
+.about_me {
+    /* text-align: center; */
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.about_me h1 {
+    text-align: center;
+}
+
+.me {
+    /* background: linear-gradient(#000, transparent); */
+    background-color: #000;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    /* left: 50%;
+    transform: translateX(-50%); */
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.masha {
+    display: block;
+    width: 100%;
+    /* width: 23rem; */
+    height: 25rem;
+    object-fit: cover;
+    /* margin-top: 2px; */
+    border-radius: 12rem 12rem 0 0;
+}
+
+
+.about-text_block {
+    line-height: 2;
+    max-width: 45em;
+    /* margin: 0 auto; */
+    /* margin-top: 2rem; */
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.about__me {
+    margin-top: 30px;
+    width: 504px;
+    height: 504px;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, #000, transparent);
+    /* display: grid; */
+    place-items: center;
+}
+
+.about__me-img {
+    border-radius: 2rem;
+    /* width: 504px;
+    height: 504px; */
+    /* overflow: hidden; */
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+
+}
+
+.about__me-img:hover {
+    transform: rotate(0);
+}
+
+.aboutMe {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about__me-img img {
+    border-radius: 2rem;
+    width: 504px;
+    height: 504px;
+    object-fit: cover
+}
+
+.about__container {
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.abtext {
+    margin-left: 100px;
+    width: 600px;
+}
+
+.up-about__container {
+    margin-left: 100px;
+}
+
+.obomne {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.up-about__container img {
+    position: absolute;
+    width: 300px;
+    opacity: 0.7;
+    z-index: -1;
+    top: 490px;
+    right: 200px;
+}
+
+.about-comp {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.about-comp span {
+    color: #4db5ff;
+}
+
+.footer_about_block {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    width: 500px;
+    /* Adjust the width as needed */
+    height: 400px;
+    /* Adjust the height as needed */
+}
+
+.location {
+    margin-top: 50px;
+}
+
+.location h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: end;
+}
+
+.location_info {
+    display: flex;
+}
+
+.location_info_desk {
+    width: 400px;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.location_info_desk h3 {
+    padding-bottom: 5px;
+}
+
+.location_info_desk p {
+    padding-bottom: 10px
+}
+
+.creator_info {
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 1.4;
+    border-radius: 20px;
+}
+
+.front-image,
+.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.front-image.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Prevent clicking the hidden image */
+}
+
+.back-image.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Prevent clicking the hidden image */
+}
+
+.back-image.visible {
+    opacity: 1;
+}
+
+/* Animation for swapping images */
+.swapped .front-image {
+    animation: slide-left 0.3s ease-in-out forwards;
+}
+
+.swapped .back-image {
+    animation: slide-right 0.3s ease-in-out forwards;
+}
+
+
+.ws_button {
+    background: transparent;
+    position: relative;
+    /* width: 200px; */
+    margin-top: 10px;
+    width: 200px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(43 183 65);
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(43 183 65);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+}
+
+.ws_button span {
+    margin: 10px;
+}
+
+.ws_button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.ws_button:hover {
+    color: #fff;
+    border: 1px solid rgb(43 183 65);
+}
+
+.ws_button:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(43 183 65);
+}
+
+.tg_button {
+    background: transparent;
+    position: relative;
+    margin-top: 10px;
+    width: 200px;
+    /* width: 200px; */
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(42 171 238);
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(42 171 238);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+}
+
+.tg_button span {
+    margin: 10px;
+}
+
+.tg_button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.tg_button:hover {
+    color: #fff;
+    border: 1px solid rgb(42 171 238);
+}
+
+.tg_button:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(42 171 238);
+}
+
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+@media screen and (max-width: 1535px) {
+    .about-text_block {
+        max-width: 35em;
+    }
+}

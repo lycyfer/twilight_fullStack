@@ -1,0 +1,35 @@
+.avatar {
+    color: white;
+}
+
+.avatar-img {
+    width: 32px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.label span:hover {
+    color: #4db5ff;
+}
+
+.sign-up {
+    border: none;
+    background-color: #4db5ff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.sign-up:hover {
+    transition: all 0.4s ease-in-out;
+    scale: 1.05;
+}

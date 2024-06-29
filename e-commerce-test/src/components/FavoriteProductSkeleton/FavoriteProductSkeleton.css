@@ -1,0 +1,34 @@
+.skeleton-item {
+    width: 280px;
+    border-radius: 15px;
+    margin: 0 12px 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+}
+
+.skeleton-image,
+.skeleton-name,
+.skeleton-price {
+    background-color: #f2f2f2;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.skeleton-image {
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.skeleton-name {
+    height: 20px;
+    width: 80%;
+}
+
+.skeleton-price {
+    height: 20px;
+    width: 50%;
+}
